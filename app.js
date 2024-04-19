@@ -1,7 +1,7 @@
-let userInput = prompt("When were you born (YYYY-MM-DD)?");
+let userInput = prompt("when  you born (YYYY-MM-DD)?");
 
 if (!userInput) {
-  alert("Please enter your date of birth.");
+  alert("please enter your date of birth.");
 } else {
     let birthDate = new Date(userInput);
     let today = new Date();
